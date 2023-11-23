@@ -43,8 +43,8 @@ class Kalkulator extends Calculator
 {
     use ProsesHitung;
 
-    private $angka1;
-    private $angka2;
+    private int $angka1;
+    private int $angka2;
 
     public function __construct($angka1, $angka2) {
         $this->angka1 = $angka1;
